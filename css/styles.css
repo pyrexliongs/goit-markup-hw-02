@@ -1,82 +1,192 @@
 
-.web-yazisi {
-    color: #4D5AE5;
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+
+    --font-family: 'Roboto', sans-serif;
+    --second-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+body {
+    font-family: var(--font-family);
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.btn {
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--ocean);
+}
+
+
+.logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.navigation .prt {
+    color: var(--navy-blue);
+}
+
+.footer .prt {
+    color: var(--cloud);
+}
+
+.navigation__link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.contact {
+    font-style: normal;
+}
+
+.contact-list__link {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.navigation__link:hover,
+.navigation__link:focus,
+.contact-list__link:hover,
+.contact-list__link:focus {
+    color: var(--ocean);
+}
+
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.hero__title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    text-align: center;
+}
+
+.hero__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+}
+
+.peculiarities__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.peculiarities__text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.team {
+    background-color: var(--cloud);
+}
+
+.team__item {
+    background-color: var(--white);
+}
+
+.team__title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.team__text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.portfolio__title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio__cart-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.portfolio__card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.footer {
+    background-color: var(--navy-blue);
+}
+
+.footer__text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
     
-    font-family: "Raleway",
-        sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 3%;
-    
-
-}
-.baslik {color:#FFFFFF;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-letter-spacing: 2%;
-text-align: center;
-
-}
-
-.giris{
-
-    background-color: #2E2F42;
-}
-
-.basla {list-style-type: none;
-padding: 0;
-font-family: "Roboto",sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 2%;
-color: #2E2F42;
-
-}
-.madde {list-style-type: none;
-padding: 0;
-}
-
-.takim {list-style-type: none;
-    padding: 0;
-}
-
-.portfolio {list-style-type: none;
-    padding: 0;}
-
-.son {background-color: #2E2F42;
-
-}
-
-.son > p {color: #F4F4FD;}
-
-.son .beyazweb {color: #F4F4FD;}
-
- a {
-     cursor: pointer;
-     /* Link üzerine gelindiğinde el işareti göster */
-     color: #0066cc;
-     text-decoration: none;
- }
-
- .yaziyla-studio {color: #2E2F42;
-font-family: "Raleway",
-        sans-serif;
-                font-weight: 700;
-                    font-size: 18px;
-                    line-height: 21px;
-                    letter-spacing: 3%;
-
-}
-
-.adresler {text-decoration: none;/
-font-family: "Roboto",sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 2%;
-color: #434455;
-
 }

@@ -1,6 +1,82 @@
+
 .web-yazisi {
     color: #4D5AE5;
- 
+    
+    font-family: "Raleway",
+        sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 3%;
+    
 
+}
+.baslik {color:#FFFFFF;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 2%;
+text-align: center;
+
+}
+
+.giris{
+
+    background-color: #2E2F42;
+}
+
+.basla {list-style-type: none;
+padding: 0;
+font-family: "Roboto",sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+color: #2E2F42;
+
+}
+.madde {list-style-type: none;
+padding: 0;
+}
+
+.takim {list-style-type: none;
+    padding: 0;
+}
+
+.portfolio {list-style-type: none;
+    padding: 0;}
+
+.son {background-color: #2E2F42;
+
+}
+
+.son > p {color: #F4F4FD;}
+
+.son .beyazweb {color: #F4F4FD;}
+
+ a {
+     cursor: pointer;
+     /* Link üzerine gelindiğinde el işareti göster */
+     color: #0066cc;
+     text-decoration: none;
+ }
+
+ .yaziyla-studio {color: #2E2F42;
+font-family: "Raleway",
+        sans-serif;
+                font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    letter-spacing: 3%;
+
+}
+
+.adresler {text-decoration: none;/
+font-family: "Roboto",sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+color: #434455;
 
 }
